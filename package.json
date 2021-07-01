@@ -1,0 +1,14 @@
+{
+  "name": "hnpm.github.io",
+  "version": "1.0.0",
+  "author": "Hien Pham",
+  "scripts": {
+    "build": "parcel build index.html --out-dir docs",
+    "dev": "parcel index.html --out-dir docs --open",
+    "start": "npm run build && npm run dev"
+  },
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "parcel-bundler": "^1.12.5"
+  }
+}
